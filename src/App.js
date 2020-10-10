@@ -1,9 +1,9 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import store from './redux/store';
-import Home from './views/Home';
-import Favorites from './views/Favorites';
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import store from "./redux/store";
+import Home from "./views/Home";
+import Favorites from "./views/Favorites";
 
 function App() {
   return (

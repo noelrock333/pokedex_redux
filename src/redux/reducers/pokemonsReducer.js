@@ -5,7 +5,7 @@ import {
 } from '../actions/pokemons/types';
 
 const initialState = {
-  current: null,
+  current: {},
   list: [],
   favorites: [],
 };
